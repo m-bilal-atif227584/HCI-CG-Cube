@@ -21,6 +21,8 @@ export default function SceneCanvas({
 }) {
 
   return (
+
+    //Canvas tag creates a 3D scene container.
     <Canvas style={{ height: "100vh" }}>
 
       {/* Ambient light for overall brightness */}
