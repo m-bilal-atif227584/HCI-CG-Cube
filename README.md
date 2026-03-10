@@ -34,6 +34,8 @@ src/
  ├─ Scene.jsx
  ├─ components/
  │   └─ Box.jsx
+ |   └─ ControlPanel.jsx
+ |   └─ SceneCanvas.jsx
  ├─ App.jsx
  └─ main.jsx
 ```
@@ -45,9 +47,9 @@ src/
 Clone the repository and install dependencies.
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-npm install
+git clone https://github.com/m-bilal-atif227584/HCI-CG-Cube.git
+cd hci-cg-cube
+npm i
 ```
 
 ---
@@ -100,21 +102,9 @@ These interactions demonstrate basic **Human Computer Interaction (HCI)** princi
 This project demonstrates:
 
 * Basic 3D scene rendering
-* Interactive UI control for 3D objects
+* Interactive UI control for 3D object
 * Event handling in 3D environments
 * Real-time animation using frame updates
-
----
-
-## Future Improvements
-
-Possible enhancements for this project include:
-
-* Drag and drop cube interaction
-* Multiple cube spawning
-* Keyboard controls
-* Lighting controls
-* Object placement using mouse clicks
 
 ---
 
